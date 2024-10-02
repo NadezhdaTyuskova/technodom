@@ -186,7 +186,7 @@ class _PaymentState extends State<Payment> {
                                     hintText: 'XXXX XXXX XXXX XXXX',
                                   ),
                                   expiryDateDecoration: InputDecoration(
-                                    labelText: 'дата выпуска',
+                                    labelText: 'годна до',
                                     hintText: 'XX/XX',
                                   ),
                                   cvvCodeDecoration: InputDecoration(
