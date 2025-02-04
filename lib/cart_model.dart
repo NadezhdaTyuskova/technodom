@@ -17,6 +17,7 @@ class CartModel extends ChangeNotifier{
     Instrument(itemName: 'Тачка\nсадовая',itemPrice:"3000",itemPath: "lib/pictures/r1.jpeg", category: InstrumentCategory.handinstrument,itemOther:"Объем: 65 л.\nГрузоподъемность: 90 кг.\nТолщина кузова: 0,6 мм.\nТип колеса: Пневмо.\nДиаметр колеса: 355 мм.\nКоличество колес: 1 шт.\nПодшипник: Стальной.\nВнутренний диаметр подшипника: 16 мм.\nДиаметр рамы: 25 мм.\nМатериал кузова: Оцинкованная сталь."),
   ];
 
+
   //список товаров в корзине
   List _cartItems=[];
   get shopItemsEl =>_shopItemsEl;
